@@ -17,10 +17,10 @@ components:
 - name: py
   container:
     image: registry.access.redhat.com/ubi9/python-39:1-1739420387
-    memoryLimit: "1Gi"
-    memoryRequest: "512M"
-    cpuLimit: "1"
-    cpuRequest: "500m"
+    # memoryLimit: "1Gi"
+    # memoryRequest: "512M"
+    # cpuLimit: "1"
+    # cpuRequest: "500m"
     args:
       - tail
       - -f
